@@ -1,0 +1,33 @@
+2026-11-12 21:12:53,747 INFO talento_tech Inicializando prueba de carrito
+2026-11-12 21:12:53,747 INFO talento_tech Ingresando a la pagina web de prueba
+2026-11-12 21:12:55,848 INFO talento_tech Iniciando sesion con credenciales validas
+2026-11-12 21:12:56,320 INFO talento_tech Sesion iniciada correctamente
+2026-11-12 21:12:56,321 INFO talento_tech Ingresando a la pagina de inventario
+2026-11-12 21:12:56,322 INFO talento_tech Leyendo el primer producto del JSON
+2026-11-12 21:12:56,349 INFO talento_tech Agregando producto del JSON al carrito
+2026-11-12 21:12:56,735 INFO talento_tech Prueba de contador de carrito validada
+2026-11-12 21:12:56,735 INFO talento_tech Ir a la pagina del carrito
+2026-11-12 21:12:56,865 INFO talento_tech Prueba del nombre del producto en carrito contra el JSON validada
+2026-11-12 21:12:56,909 INFO talento_tech Prueba del precio del producto en carrito contra el JSON validada
+2026-11-12 21:13:00,619 INFO talento_tech Inicializando la prueba de Inventario
+2026-11-12 21:13:00,622 INFO talento_tech Ingresando a la pagina web
+2026-11-12 21:13:01,341 INFO talento_tech Ingresando credenciales para iniciar sesion
+2026-11-12 21:13:01,764 INFO talento_tech Sesion iniciada correctamente
+2026-11-12 21:13:01,845 INFO talento_tech Productos de la pagina web capturados
+2026-11-12 21:13:01,845 INFO talento_tech Verificando que existe más de un solo producto
+2026-11-12 21:13:01,846 INFO talento_tech Prueba de cantidad de productos verificada
+2026-11-12 21:13:01,928 INFO talento_tech Prueba de integridad de la informacion de los productos validada
+2026-11-12 21:13:01,966 INFO talento_tech Prueba de visibilidad del menu en la pagina validada
+2026-11-12 21:13:01,998 INFO talento_tech Prueba del filtro en la pagina validada
+2026-11-12 21:13:05,917 INFO talento_tech Iniciando prueba de login
+2026-11-12 21:13:06,520 INFO talento_tech Pagina abierta correctamente
+2026-11-12 21:13:06,995 INFO talento_tech Ingreso de credenciales
+2026-11-12 21:13:07,058 INFO talento_tech Login exitoso
+2026-11-12 21:13:10,626 INFO talento_tech Iniciando prueba de login
+2026-11-12 21:13:11,437 INFO talento_tech Pagina abierta correctamente
+2026-11-12 21:13:11,784 INFO talento_tech Ingreso de credenciales
+2026-11-12 21:13:11,831 INFO talento_tech Prueba de mensaje de error valida
+2026-11-12 21:13:15,462 INFO talento_tech Iniciando prueba de login
+2026-11-12 21:13:16,048 INFO talento_tech Pagina abierta correctamente
+2026-11-12 21:13:16,481 INFO talento_tech Ingreso de credenciales
+2026-11-12 21:13:16,526 INFO talento_tech Prueba de mensaje de error valida
