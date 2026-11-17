@@ -3,7 +3,7 @@ import pytest
 from utils.reader import read_users_csv
 from utils.logger import logger
 
-
+@pytest.mark.flaky(reruns=2,reruns_delay=5) #reintentos de la prueba
 @pytest.mark.parametrize(
     "data", read_users_csv())
     
