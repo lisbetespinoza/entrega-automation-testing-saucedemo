@@ -24,6 +24,13 @@ pip install pytest
 pip install pytest-html
 ```
 
+``` python
+pip install pytest-rerunfailures
+``` 
+
+``` behave
+pip install behave
+``` 
 
 ## Ejecutar las pruebas
 ``` python
