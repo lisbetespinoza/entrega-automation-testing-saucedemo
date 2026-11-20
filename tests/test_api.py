@@ -68,7 +68,7 @@ def test_crear_usuario(base_url,headers):
     data = response.json()
     check.is_in("email",data) #assert "email" in data
     check.is_in("first_name",data) #assert "first_name" in data
-    check.is_in("lasst_name",data) #assert "last_name" in data
+    check.is_in("last_name",data) #assert "last_name" in data
     check.is_in("id",data) #assert "id" in data
     
     

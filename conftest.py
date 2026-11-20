@@ -37,9 +37,13 @@ def pytest_runtest_makereport(item,call):
     
     if report.when == "call" and report.failed: #para hacer la captura de pantalla en call
         driver = item.funcargs.get("driver") #devuelve un diccionario
-        
+        #if "driver" not in item.funcargs:
+         #   return
+        #driver = item.funcargs["driver"]
+        #if driver is None:
+         #   return
         carpeta = pathlib.Path("reports/screenshots")
-        carpeta.mkdir(parents=True,exist_ok=True) #crear carpetas desde python
+        #carpeta.mkdir(parents=True,exist_ok=True) #crear carpetas desde python
         archivo = carpeta / f"{item.name}.png"
         
         
